@@ -23,13 +23,14 @@
 
 .colortext {
      color: #FF0099;
+     font-weight: bold;
    }
 
 .pc img{
   position: absolute;
-  width: 900px;
-  left: 320px;
-  top: 300px;
+  width: 1000px;
+  left: 300px;
+  top: 150px;
   opacity: 0.9;
  }
 
@@ -38,9 +39,10 @@
    width: 796px;
    height: 240px;
    left: 205px;
-   top: 200px;
+   top: 250px;
 
    font-family: 'PT Mono', monospace;
+   font-weight: bold;
    line-height: normal;
    font-size: 36px;
    color: #EBEBEB;
@@ -61,7 +63,7 @@
 .window1{
   position: absolute;
   height: 427px;
-  left: 50px;
+  left: 35px;
   top: 1015px;
   z-index: -1;
 }
@@ -92,7 +94,7 @@ position: absolute;
 top: 1100px;
 left: 100px;
 color: black;
-font-size: 29px;
+font-size: 32px;
 }
 
 .treat p {
@@ -100,7 +102,7 @@ font-size: 29px;
   top: 1950px;
   left: 200px;
   color: black;
-  font-size: 29px;
+  font-size: 32px;
   margin-left: 250px;
 }
 
@@ -163,7 +165,7 @@ font-size: 25px;
 }
 
 .woman > img {
-  width: 300px;
+  width: 400px;
 }
 
 .man {
@@ -173,7 +175,7 @@ font-size: 25px;
 }
 
 .man > img {
-  width: 350px;
+  width: 500px;
 }
 
 .ready {
@@ -181,10 +183,10 @@ font-size: 25px;
 }
 
 .ready p {
-  font-size: 34px;
+  font-size: 32px;
   color: black;
   margin-top: -350px;
-  margin-left: 120px;
+  margin-left: 135px;
 }
 
 .button {
