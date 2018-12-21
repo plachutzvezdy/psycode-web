@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+@font-face {
+font-family: 'Avenir Next Cyr Regular';
+font-weight: normal;
+font-style: normal;
+
+src: url('AvenirNextCyr-Regular.eot');
+src: url('AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+url('AvenirNextCyr-Regular.woff') format('woff'),
+url('AvenirNextCyr-Regular.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Avenir Next Cyr Demi';
+font-weight: normal;
+font-style: normal;
+
+src: url('AvenirNextCyr-Demi.eot');
+src: url('AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+url('AvenirNextCyr-Demi.woff') format('woff'),
+url('AvenirNextCyr-Demi.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Avenir Next Cyr Bold';
+font-weight: normal;
+font-style: normal;
+
+src: url('AvenirNextCyr-Bold.eot');
+src: url('AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+url('AvenirNextCyr-Bold.woff') format('woff'),
+url('AvenirNextCyr-Bold.ttf') format('truetype');
+}

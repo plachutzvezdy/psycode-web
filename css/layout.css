@@ -1,0 +1,218 @@
+@import "fonts.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+
+
+.everything {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.bg1440 {
+  /* display: flex; */
+  position: absolute;
+  overflow: hidden;
+  z-index: -5;
+  width: 100vw;
+}
+
+.bg1024, .bg768 {
+  display: none;
+}
+
+.colortext {
+     color: #FF0099;
+   }
+
+.pc img{
+  position: absolute;
+  width: 900px;
+  left: 320px;
+  top: 300px;
+  opacity: 0.9;
+ }
+
+ .pc h1{
+   position: absolute;
+   width: 796px;
+   height: 240px;
+   left: 205px;
+   top: 200px;
+
+   font-family: 'PT Mono', monospace;
+   line-height: normal;
+   font-size: 36px;
+   color: #EBEBEB;
+   transform: rotate(-18deg);
+ }
+
+ h1 {
+   font-family: 'Avenir Next Cyr Bold';
+   color: #fff;
+ }
+
+ .about {
+   margin-left: -300px;
+  position: absolute;
+  width: 700px;
+ }
+
+.window1{
+  position: absolute;
+  height: 427px;
+  left: 50px;
+  top: 1015px;
+  z-index: -1;
+}
+
+.treat {
+ position: absolute;
+ width: 1000px;
+}
+
+.window2 {
+  position: absolute;
+  left: 350px;
+  height: 430px;
+  top: 1845px;
+  z-index: -1;
+}
+
+.ready {
+  position: absolute;
+width: 724.85px;
+height: 385px;
+left: 200px;
+top: 3372px;
+}
+
+.about p {
+position: absolute;
+top: 1100px;
+left: 100px;
+color: black;
+font-size: 29px;
+}
+
+.treat p {
+  position: absolute;
+  top: 1950px;
+  left: 200px;
+  color: black;
+  font-size: 29px;
+  margin-left: 250px;
+}
+
+.treat {
+  position: absolute;
+}
+
+h2 {
+  font-family: 'Avenir Next Cyr Bold';
+  margin-bottom: 30px;
+  color: #FF0099;
+  font-size: 40px;
+}
+
+ p {
+      font-family: 'PT Mono', monospace;
+      color: pink;
+ }
+
+.p1 p, .p2 p, .p3 p{
+color: #fff;
+font-size: 25px;
+}
+
+.p1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.p2 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.p3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.grid {
+  width: 100vw;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.par {
+  position: absolute;
+  top: 2700px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 70px;
+}
+
+.woman {
+  position: absolute;
+  top: 1000px;
+  left: 900px;
+}
+
+.woman > img {
+  width: 300px;
+}
+
+.man {
+  position: absolute;
+  top: 1900px;
+  left: 100px;
+}
+
+.man > img {
+  width: 350px;
+}
+
+.ready {
+  margin-left: 200px;
+}
+
+.ready p {
+  font-size: 34px;
+  color: black;
+  margin-top: -350px;
+  margin-left: 120px;
+}
+
+.button {
+  margin-top: 60px;
+  margin-left: 325px;
+}
+
+.contact {
+  position: absolute;
+  margin-top: 4050px;
+	width: 1440px;
+	height: 100px;
+	background: #fff;
+}
+
+.adress {
+  margin-top: 25px;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: row;
+}
+
+h4:nth-child(2) {
+  margin-left: 525px;
+}
+
+h4 {
+  font-family: 'Avenir Next Cyr Bold';
+  color: black;
+  font-size: 30px;
+}
